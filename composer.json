@@ -1,0 +1,19 @@
+{
+    "name": "kitabisa/belajar-php-library",
+    "description": "library composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kitabisa\\BelajarPhpLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rahman allathif3",
+            "email": "rahman35@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
