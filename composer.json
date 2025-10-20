@@ -7,6 +7,15 @@
             "Kitabisa\\BelajarPhpLibrary\\": "src/"
         }
     },
+
+    "repositories": [
+        {
+        "type": "vcs",
+        "url": "https://github.com/rahmanallathif2/belajar_composer_hello"
+        
+    }
+    ],
+
     "authors": [
         {
             "name": "rahman allathif3",
@@ -14,6 +23,8 @@
         }
     ],
     "require": {
-        "php" : ">=8.0"
+        "php" : ">=8.0",
+        "monolog/monolog" : "2.2.0"
     }
+
 }
